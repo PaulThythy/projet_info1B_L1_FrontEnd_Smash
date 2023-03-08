@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="author" content="PaulTHIRION_FlorianSTEC" />
+<title>inscription</title>
+<link rel="stylesheet" href="../../css/feuilleIndex.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="../../css/feuilleForm.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="../../css/feuilleRegLog.css" type="text/css" media="screen" /> 
+</head>
+<body>
+<script  type="text/javascript" src="../../javascript/projetInfo1B.js"></script>
+
+<div class="wrapperButton1">
+	<input type="button" class="boutons" value="Retour" onclick="history.go(-1)"/><input type="button" class="boutons" value="Suivant" onclick="history.go(+1)"/>
+</div>
+
+
+
+<form method="post" name="formRegLog" action="somewhere" class="formRegLog" onsubmit="return checkedReg()" onreset="return backToNormReg()">
+	<fieldset>
+		<legend>INSCRIPTION :</legend>
+	
+		<p class="textForm">
+			<label for="mail"><span class="intitules">Adresse Mail : </span></label>
+			<input type="email" name="mail" id="mail"/>
+		</p>
+	
+		<p class="textForm">
+			<label for="password"><span class="intitules">Mot de passe :</span></label>
+			<input type="password" name="password" id="password" minlength="8"/>
+		</p>
+	
+		<p class="textForm">
+            <label for="passwordConfirm"><span class="intitules">Confirmez votre mot de passe :</span></label>
+            <input type="password" name="passwordConfirm" id="passwordConfirm" minlength="8"/>
+        </p>
+        
+        <p class="textForm">
+            <label for="pseudo"><span class="intitules">Choisissez votre pseudo :</span></label>
+            <input type="text" name="pseudo" id="pseudo"/>
+        </p>
+
+        <p class="textForm">
+            <label for="colorPseudo"><span class="intitules">Choisissez la couleur de votre pseudo</span></label>
+            <input type="color" name="colorPseudo" id="colorPseudo" value="#000000" onchange="changeColor()"/>
+        </p>
+	
+		<input type="submit" /> <input type="reset"/>
+	</fieldset>
+</form>
+
+</body>
+</html>

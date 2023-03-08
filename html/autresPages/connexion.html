@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="author" content="PaulTHIRION_FlorianSTEC" />
+<title>inscription</title>
+<link rel="stylesheet" href="../../css/feuilleIndex.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="../../css/feuilleForm.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="../../css/feuilleRegLog.css" type="text/css" media="screen" /> 
+</head>
+<body>
+<script  type="text/javascript" src="../../javascript/projetInfo1B.js"></script>
+
+<div class="wrapperButton1">
+	<input type="button" class="boutons" value="Retour" onclick="history.go(-1)"/><input type="button" class="boutons" value="Suivant" onclick="history.go(+1)"/>
+</div>
+
+
+
+<form method="post" name="formRegLog" action="somewhere" class="formRegLog" onsubmit="return checkedLog()" onreset="return backToNormLog()">
+	<fieldset>
+		<legend>CONNEXION :</legend>
+	
+		<p class="textForm">
+			<label for="mail"><span class="intitules">Adresse Mail : </span></label>
+			<input type="email" name="mail" id="mail"/>
+		</p>
+	
+		<p class="textForm">
+			<label for="password"><span class="intitules">Mot de passe :</span></label>
+			<input type="password" name="password" id="password" minlength="8"/>
+		</p>
+	
+		<p>
+			<input type="image" src="../../media/loginButton.png" alt="Login"/>
+			<input type="reset" style="right: 250px; position: absolute; top: 400px;"/>
+		</p>
+
+	</fieldset>
+</form>
+
+</body>
+</html>

@@ -1,0 +1,134 @@
+#videoWrapper
+{
+    height: 100%;
+    width: 100%;
+}
+
+#videoBackground {
+	height: 1080px;
+	width: 1903px;
+	opacity: 0.4;
+}
+
+.Smash {
+	display: block;
+	top: 996px;
+	position: absolute;
+	left: 0px;
+}
+
+#triangleSmash {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+	border-bottom: 80px solid  rgb(54, 54, 54);
+	position: absolute;
+	left: 600px;
+}
+
+#carreSmash1 {
+    height: 80px;
+	width: 650px;
+	background: rgb(54, 54, 54);
+	position: absolute;
+	left: 0px;
+}
+
+#carreSmash2 {
+    height: 300px;
+	width: 1000px;
+	background: rgb(54, 54, 54);
+	position: absolute;
+	top: 80px;
+}
+
+.sakurai {
+	display: block;
+	top: 1500px;
+	position: absolute;
+	right: 0px;
+}
+
+#triangleSakurai {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+	border-bottom: 80px solid  rgb(238, 255, 0);
+	position: absolute;
+	right: 750px;
+}
+
+#carreSakurai1 {
+	height: 80px;
+	width: 800px;
+	background: rgb(238, 255, 0);
+	position: absolute;
+	right: 0px;
+}
+
+#carreSakurai2 {
+	width: 1100px;
+	float: right;
+	background: rgb(238, 255, 0);
+	position: relative;
+	top: 80px;
+}
+
+.titre {
+	font-size: 3em;
+	font-weight: bold;
+	letter-spacing: 5px;
+	text-decoration: underline;
+	position: absolute;
+}
+
+.imgSakurai {
+	float: right;
+	width: 320px;
+	margin-top: 30px;
+}
+
+.text {
+	margin-top: 20px;
+	margin-left: 20px;
+	font-size: x-large;
+}
+
+.Licence {
+	display: block;
+	top: 2400px;
+	position: absolute;
+	left: 0px;
+}
+
+#triangleLicence {
+	width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+	border-bottom: 80px solid rgb(255, 39, 39);
+	position: absolute;
+	left: 750px;
+}
+
+#carreLicence1 {
+	height: 80px;
+	width: 800px;
+	background: rgb(255, 39, 39);
+	position: absolute;
+	left: 0px;
+}
+
+#carreLicence2 {
+	width: 1300px;
+	background: rgb(255, 39, 39);
+	position: relative;
+	left: 0px;
+	top: 60px;
+}
+
+.piedDePage {
+	top: 2500px;
+}

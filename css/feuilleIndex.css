@@ -1,0 +1,180 @@
+body, html {
+	background-color: black;
+	height: 100%;
+	width: 100%;
+	margin-left: 0px;
+	margin-top: 0px;
+}
+
+.formatLogoPNGsmash {
+	width: 140px;
+	height: 40px;
+}
+
+.fondJaune {
+	display: inline;
+	background-color: yellow;
+	padding-top: 26px;
+	padding-bottom: 7px;
+}
+
+.entete {
+	background-color: rgb(39, 39, 39);
+	position: fixed;
+	opacity: 0.8;
+	top: 0px;
+	margin-top: 10px;
+	z-index: 2;
+}
+
+.menu {
+	text-decoration: none;
+	font-size: xx-large;
+	color: white;
+	font-family: 'Courier New', Courier, monospace;
+	padding-top: 14px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.menu:hover {
+	text-decoration: underline yellow;
+	color: yellow;
+	background-color: red;
+	transition: 0.5s;
+}
+
+.wrapperButton {
+	top: 58px;
+	position: fixed;
+}
+
+.boutons {
+	background-color: red;
+	border-style: none;
+	color: white;
+	width: 70px;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+.boutons:hover {
+	border-style: solid;
+	border-color: yellow;
+}
+
+.date {
+	position: fixed;
+	left: 1730px;
+	top: 0px;
+	z-index: 2;
+}
+
+#jour {
+	font-size: small;
+	top: 5px;
+	position: fixed;
+	font-weight: bold;
+	color: black;
+	text-decoration: underline;
+}
+
+#heure {
+	font-size: small;
+	position: fixed;
+	top: 23px;
+	right: 80px;
+	color: black;
+}
+
+.wrapper {
+	height: 100%;
+	background-image: url("../media/imgSmash.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	margin-top: 0px;
+	position: relative;
+	z-index: 1;
+}
+
+#triangleDate {
+    width: 0;
+    height: 0;
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+	border-bottom: 40px solid  rgb(238, 255, 0);
+	left: 1670px;
+	top: 1px;
+	position: fixed;
+}
+
+#carreDate {
+    height: 40px;
+    width: 200px;
+	background: rgb(238, 255, 0);
+	left: 1705px;
+	top: 1px;
+	position: fixed;
+}
+
+.news {
+	padding-bottom: 40px;
+}
+
+#triangleNews {
+    width: 0;
+    height: 0;
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+	border-bottom: 60px solid  rgb(238, 255, 0);
+	position: absolute;
+	left: 765px;
+}
+
+#carre1News {
+    height: 60px;
+    width: 800px;
+	background: rgb(238, 255, 0);
+}
+
+#actu {
+	position: absolute;
+	font-weight: bold;
+	font-size: xx-large;
+	text-decoration: underline;
+	letter-spacing: 20px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 9px;
+	padding-left: 180px;
+}
+
+#carre2News {
+	width: 1445px;
+	height: 400px;
+	background-color: #911818;
+}
+
+.piedDePage {
+	height: 250px;
+	background-color: #cecece;
+	position: relative;
+}
+
+.lien {
+	color: blue;
+}
+
+.lien:focus {
+	color: red;
+}
+
+.lien:hover {
+	color: red;
+	background-color: black;
+}
+
+.compte {
+	left: 1400px;
+	position: absolute;
+}

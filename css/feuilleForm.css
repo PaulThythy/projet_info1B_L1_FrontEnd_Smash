@@ -1,0 +1,42 @@
+.position {
+	z-index: 1;
+	position: relative;
+	top: 130px;
+}
+
+form {
+	position: static;
+	background-image: url("../../Paul_Thirion_florian_Stec_ProjetInfo1B2020_2021/media/imgSmash1.png");;
+}
+
+legend {
+	color: white;
+	font-weight: bold;
+	text-decoration: underline;
+	font-size: xx-large;
+}
+
+.textForm {
+	color: white;
+	font-size: x-large;
+}
+
+.intitules {
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+.entete1 {
+	background-color: rgb(39, 39, 39);
+	position: fixed;
+	opacity: 0.8;
+	top: 0px;
+	margin-top: 10px;
+	z-index: 2;
+}
+
+.piedDePage {
+	position: relative;
+	z-index: 1;
+	top: 200px;
+}
